@@ -15,7 +15,12 @@ const HeroSection: React.FC = () => {
       <div className="max-w-36 rounded-full mb-4 overflow-hidden bg-amber-100 border-2 border-green-900">
         <img src={imgPhoto} alt="photo" />
       </div>
-      <h1 className="text-xl font-bold">Muhamad Taufik</h1>
+      <h1 className="text-2xl font-bold">
+        Muhamad Taufik
+        <span className="text-slate-500 text-sm font-normal block text-center">
+          [Frontend Web Developer]
+        </span>
+      </h1>
       <p className="leading-relaxed max-w-screen-sm lg:max-w-screen-md mx-4 sm:mx-0 text-center text-black/90">
         Pengembang web yang berpengalaman dalam layanan web statis dan situs web
         promosi. Terampil dalam memenuhi tenggat waktu, melakukan evaluasi
@@ -32,7 +37,7 @@ const HeroSection: React.FC = () => {
       </div>
       <div className="my-2">
         <button className="px-4 py-2 border border-lime-50 bg-green-900 text-white rounded-lg hover:border hover:border-lime-600 hover:shadow-lg hover:bg-green-700">
-          View Project
+          <a href="#portfolio">View Project</a>
         </button>
       </div>
     </section>

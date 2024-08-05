@@ -12,11 +12,12 @@ const HeaderComponents: React.FC = () => {
   };
 
   return (
-    <header className="bg-slate-700 text-white p-2 relative md:static">
+    <header
+      id="home"
+      className="bg-slate-700 text-white p-2 relative md:static"
+    >
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-xl font-bold">
-          <a href="#home">MT</a>
-        </div>
+        <div className="text-xl font-bold cursor-default">MT</div>
 
         <button onClick={toggleMenu} className="md:hidden text-2xl">
           <svg
