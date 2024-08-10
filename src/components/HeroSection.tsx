@@ -22,10 +22,11 @@ const HeroSection: React.FC = () => {
         </span>
       </h1>
       <p className="leading-relaxed max-w-screen-sm lg:max-w-screen-md mx-4 sm:mx-0 text-center text-black/90">
-        Pengembang web yang berpengalaman dalam layanan web statis dan situs web
-        promosi. Terampil dalam memenuhi tenggat waktu, melakukan evaluasi
-        checkpoint, dan berpartisipasi dalam retrospektif. Terlatih dalam
-        praktik pemrograman dunia nyata.
+        Saya memiliki pengalaman dalam membangun web statis untuk promosi rental
+        mobil dan slicing dari mockup menjadi halaman web responsif. Dilatih
+        dalam simulasi dunia kerja nyata sebagai programmer yang harus memenuhi
+        tenggat waktu, mengikuti evaluasi chekpoint, menghadiri retrospektif,
+        berkolaborasi dengan tim melalui github.
       </p>
       <div className="flex gap-x-3">
         <img src={htmlLogo} alt="html" className={sizeImage} />
