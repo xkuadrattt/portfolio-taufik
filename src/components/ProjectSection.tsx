@@ -8,6 +8,11 @@ import jsLogo from "../assets/img/jslogo.webp";
 import vueLogo from "../assets/img/vuelogo.webp";
 import tailwindLogo from "../assets/img/tailwindlogo.webp";
 import axiosLogo from "../assets/img/axioslogo.webp";
+import digidaw from "../assets/img/digidaw.gif";
+import enlighten from "../assets/img/enlighten.gif";
+import jobless from "../assets/img/jobless.gif";
+import nowted from "../assets/img/nowtedapp.gif";
+import strawrage from "../assets/img/strawrage.gif";
 
 const sizeImage: string =
   "max-w-8 transition block hover:shadow-xl hover:border-2 hover:border-green-200 rounded-full";
@@ -100,6 +105,116 @@ const ProjectSection: React.FC = () => {
               <div className="flex gap-2 mt-4">
                 <img src={cssLogo} alt="css" className={sizeImage} />
                 <img src={vueLogo} alt="vue" className={sizeImage} />
+                <img
+                  src={tailwindLogo}
+                  alt="tailwindcss"
+                  className={sizeImage}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col max-w-[350px] sm:w-full p-8 gap-2 rounded-lg border hover:border-amber-400/80 border-amber-200/80 shadow-lg">
+            <img
+              src={digidaw}
+              alt="table"
+              className="overflow-hidden block mb-2"
+            />
+            <div className="border-t border-t-slate-200">
+              <a
+                href="https://vuex-table-fork.vercel.app/"
+                className="block mt-2 text-green-900 font-medium"
+              >
+                Slicing web responsif dengan Tailwind CSS
+              </a>
+              <div className="flex gap-2 mt-4">
+                <img
+                  src={tailwindLogo}
+                  alt="tailwindcss"
+                  className={sizeImage}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col max-w-[350px] sm:w-full p-8 gap-2 rounded-lg border hover:border-amber-400/80 border-amber-200/80 shadow-lg">
+            <img
+              src={enlighten}
+              alt="table"
+              className="overflow-hidden block mb-2"
+            />
+            <div className="border-t border-t-slate-200">
+              <a
+                href="https://enlighten-codedesign.vercel.app/"
+                className="block mt-2 text-green-900 font-medium"
+              >
+                Slicing web responsif dengan Tailwind CSS
+              </a>
+              <div className="flex gap-2 mt-4">
+                <img
+                  src={tailwindLogo}
+                  alt="tailwindcss"
+                  className={sizeImage}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col max-w-[350px] sm:w-full p-8 gap-2 rounded-lg border hover:border-amber-400/80 border-amber-200/80 shadow-lg">
+            <img
+              src={jobless}
+              alt="table"
+              className="overflow-hidden block mb-2"
+            />
+            <div className="border-t border-t-slate-200">
+              <a
+                href="https://jobless-codedesign.vercel.app/"
+                className="block mt-2 text-green-900 font-medium"
+              >
+                Slicing web responsif dengan Tailwind CSS
+              </a>
+              <div className="flex gap-2 mt-4">
+                <img
+                  src={tailwindLogo}
+                  alt="tailwindcss"
+                  className={sizeImage}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col max-w-[350px] sm:w-full p-8 gap-2 rounded-lg border hover:border-amber-400/80 border-amber-200/80 shadow-lg">
+            <img
+              src={nowted}
+              alt="table"
+              className="overflow-hidden block mb-2"
+            />
+            <div className="border-t border-t-slate-200">
+              <a
+                href="https://nowted-codedesign.vercel.app/"
+                className="block mt-2 text-green-900 font-medium"
+              >
+                Slicing web responsif dengan Tailwind CSS
+              </a>
+              <div className="flex gap-2 mt-4">
+                <img
+                  src={tailwindLogo}
+                  alt="tailwindcss"
+                  className={sizeImage}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col max-w-[350px] sm:w-full p-8 gap-2 rounded-lg border hover:border-amber-400/80 border-amber-200/80 shadow-lg">
+            <img
+              src={strawrage}
+              alt="table"
+              className="overflow-hidden block mb-2"
+            />
+            <div className="border-t border-t-slate-200">
+              <a
+                href="https://priced.vercel.app/"
+                className="block mt-2 text-green-900 font-medium"
+              >
+                Slicing web responsif dengan Tailwind CSS
+              </a>
+              <div className="flex gap-2 mt-4">
                 <img
                   src={tailwindLogo}
                   alt="tailwindcss"
