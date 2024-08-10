@@ -121,7 +121,7 @@ const ProjectSection: React.FC = () => {
             />
             <div className="border-t border-t-slate-200">
               <a
-                href="https://vuex-table-fork.vercel.app/"
+                href="https://digidaw-codedesign.vercel.app/"
                 className="block mt-2 text-green-900 font-medium"
               >
                 Slicing web responsif dengan Tailwind CSS
