@@ -232,7 +232,7 @@ const ProjectSection: React.FC = () => {
             />
             <div className="border-t border-t-slate-200">
               <a
-                href="https://priced.vercel.app/"
+                href="https://stockiesss.vercel.app/"
                 className="block mt-2 text-green-900 font-medium"
               >
                 Layanan inventory cadangan Anda
